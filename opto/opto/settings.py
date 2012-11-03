@@ -180,6 +180,14 @@ CONTENT_INDEX_NAME=('index.html', 'index.md', 'index.txt')
 CONTENT_FILETYPES=('.html', '.md', '.txt')
 CONTENT_IGNORE_PREFIX=('_', )
 
+INSTALLED_APPS += (
+    'compressor',
+)
+
 TEMPLATE_DIRS += (
     CONTENT_DIR,
+)
+
+TEMPLATE_TAGS = (
+    'compressor.templatetags.compress',
 )
