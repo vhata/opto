@@ -181,6 +181,8 @@ CONTENT_FILETYPES=('.html', '.md', '.txt')
 CONTENT_IGNORE_PREFIX=('_', )
 
 INSTALLED_APPS += (
+    'opto',
+    'content',
     'compressor',
 )
 
