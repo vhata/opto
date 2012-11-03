@@ -149,3 +149,12 @@ LOGGING = {
         },
     }
 }
+
+CONTENT_DIR='/Users/jonathan/src/site/data/pages'
+CONTENT_INDEX_NAME=('index.html', 'index.md', 'index.txt')
+CONTENT_FILETYPES=('.html', '.md', '.txt')
+CONTENT_IGNORE_PREFIX=('_', )
+
+TEMPLATE_DIRS += (
+    CONTENT_DIR,
+)
